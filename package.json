@@ -16,6 +16,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && vite build --mode library",
+    "test:consumer": "node scripts/smoke-consumer.mjs",
     "prepack": "npm run build",
     "preview": "vite preview --host"
   },

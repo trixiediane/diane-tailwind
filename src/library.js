@@ -1,1 +1,1 @@
-import './trix-ui.css';
+import './styles.css';
